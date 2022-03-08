@@ -1,0 +1,20 @@
+.caja{
+    
+    margin: 0 auto;
+    width: 60%
+}
+.capafondo{
+    background:url("fondo.jpg") no-repeat;
+    background-size: cover;
+    height:100%;
+    opacity: 0.5;
+    position:fixed;
+    width:100%;
+    z-index: -1;
+}
+
+.caja .mifoto{
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em rgb(0, 0, 0.5);
+    cursor:grab
+}
