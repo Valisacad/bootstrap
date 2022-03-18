@@ -1,3 +1,7 @@
+.navbar-dark, .bg-dark{
+background: rgb(117, 10, 10)! important;
+
+}
 .caja{
     
     margin: 0 auto;
@@ -7,8 +11,10 @@
     background:url("fondo.jpg") no-repeat;
     background-size: cover;
     height:100%;
+    left:0;
     opacity: 0.5;
     position:fixed;
+    top: 0;
     width:100%;
     z-index: -1;
 }
@@ -17,4 +23,16 @@
     border-radius: 1em;
     box-shadow: 0 0 0.5em rgb(0, 0, 0.5);
     cursor:grab
+}
+
+.espacio{
+    /* border: solid red; */
+    height: 50px;
+    margin-top: 50px;
+}
+
+.row div[class^="col"]{
+    background: rgb(218, 218, 243);
+    border:solid 0.1em black
+
 }
